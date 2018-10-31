@@ -20,7 +20,7 @@ void loop() {
     "BIN"
   );
 
-  for (int16_t x{0}; x != 64; ++x) { // only numbers from 0 to 64, change to suit
+  for (int16_t x{0}; x != 64; ++x) { // only numbers from 0 to 63, change to suit
     debugPrintLine(
           x , "\t\t", // prints x as an ASCII-encoded decimal - same as dec(x) - and two tabs to accommodate the label length
       dec(x), "\t"  , // prints x as an ASCII-encoded decimal                    and a tab
